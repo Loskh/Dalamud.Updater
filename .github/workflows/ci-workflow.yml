@@ -2,6 +2,8 @@ name: Build Updater
 on:
   workflow_dispatch:
   push:
+    tags:
+    - v*
   pull_request:
 concurrency: build_xl
 
