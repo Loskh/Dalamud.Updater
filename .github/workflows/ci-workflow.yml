@@ -38,7 +38,6 @@ jobs:
         with:
           files: Dalamud.Updater\bin\Release\net48\**
           name: Release ${{ github.ref }}
-          body_path: RELEASE.md
           prerelease: true
 
   build:
